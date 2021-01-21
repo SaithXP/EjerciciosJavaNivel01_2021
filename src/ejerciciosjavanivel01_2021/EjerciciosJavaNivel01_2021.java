@@ -11,11 +11,22 @@ package ejerciciosjavanivel01_2021;
  */
 public class EjerciciosJavaNivel01_2021 {
 
+    //declaro un array de integers para hacer pruebas
+    
+    int[] listaNumeros = {333, 31, 200, 20, 5, 99};
+    
+    public int maximo (int[] lista){
+        
+    }
+
     /**
-     * @param args the command line arguments
+     * @param args 
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        EjerciciosJavaNivel01_2021 ejercicio = new EjerciciosJavaNivel01_2021();
+        
+        System.out.println(ejercicio.listaNumeros[0]);
+        
     }
     
 }
